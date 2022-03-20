@@ -1,0 +1,15 @@
+
+.fade-out-enter-from, .fade-out-leave-to
+  opacity: 0
+.fade-out-enter-to, .fade-out-leave-from
+  opacity: 1
+.fade-out-enter-active, .fade-out-leave-active
+  transition: opacity .4s ease
+
+.roll-down-enter-from, .roll-down-leave-to
+  transform: scaleY(0)
+.roll-down-enter-to, .roll-down-leave-from
+  transform: scale(1)
+.roll-down-enter-active, .roll-down-leave-active
+  transform-origin: top
+  transition: transform .4s ease

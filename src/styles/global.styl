@@ -1,0 +1,32 @@
+*
+  box-sizing: border-box
+
+body, html
+  margin: 0
+  padding: 0
+
+#app
+  font-family Avenir, Helvetica, Arial, sans-serif
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+  text-align center
+  color #2c3e50
+
+@media only screen and (min-width: 520px)
+  #app
+    width: 90%
+    margin: 1rem auto
+
+.buttons-div
+  margin: 1.5rem  0
+
+.is-link
+  cursor: pointer
+  transition: background .4s ease
+  &:hover
+    background: lighten($secondary, 80%)
+.text-right
+  text-align: right
+
+.mb-1rem
+  margin-bottom: 1rem
